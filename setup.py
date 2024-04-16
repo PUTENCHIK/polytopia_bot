@@ -7,7 +7,7 @@ setup(
    license='MIT',
    author='Maxim Olifirenko',
    author_email='opaolifirenkomaxim@gmail.com',
-   url='https://github.com/PUTENCHIK/polytopia-bot',
+   url='https://github.com/PUTENCHIK/polytopia_bot',
    packages=['polytopia_bot'],
    install_requires=[], # it is empty since we use standard python library
    extras_require={
