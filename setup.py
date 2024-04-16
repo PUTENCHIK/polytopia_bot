@@ -8,7 +8,7 @@ setup(
    author='Maxim Olifirenko',
    author_email='opaolifirenkomaxim@gmail.com',
    url='https://github.com/PUTENCHIK/polytopia_bot',
-   packages=['polytopia_bot'],
+   packages=['polytopia_bot', 'polytopia_bot/models'],
    install_requires=[], # it is empty since we use standard python library
    extras_require={
         'test': [
