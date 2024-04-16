@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
    name='polytopia_bot',
@@ -8,7 +8,7 @@ setup(
    author='Maxim Olifirenko',
    author_email='opaolifirenkomaxim@gmail.com',
    url='https://github.com/PUTENCHIK/polytopia_bot',
-   packages=['polytopia_bot', 'polytopia_bot/models'],
+   packages=find_packages(exclude=['tests']),
    install_requires=[], # it is empty since we use standard python library
    extras_require={
         'test': [
