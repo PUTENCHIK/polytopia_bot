@@ -4,8 +4,9 @@
 ## Установка
 Оба варианта установки являются равнозначными:
 1. `pip install -e git+https://github.com/PUTENCHIK/polytopia_bot#egg=polytopia_bot`;
-2. ```
-git clone URL 
-cd my_project
-python setup.py
-   ```
+2. Клонирование репозитория:
+```
+git clone https://github.com/PUTENCHIK/polytopia_bot.git
+cd polytopia_bot
+python setup.py install
+```
