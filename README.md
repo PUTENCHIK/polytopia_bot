@@ -10,3 +10,5 @@ git clone https://github.com/PUTENCHIK/polytopia_bot.git
 cd polytopia_bot
 python setup.py install
 ```
+## Ссылка на репозиторий GitHub
+`https://github.com/PUTENCHIK/polytopia_bot`
