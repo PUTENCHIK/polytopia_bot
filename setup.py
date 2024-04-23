@@ -4,6 +4,8 @@ setup(
    name='polytopia_bot',
    version='0.5',
    description='Legendary the hardest bot for game The Battle of Polytopia',
+   long_description=open('README.md').read(),
+   long_description_content_type='text/markdown',
    license='MIT',
    author='Maxim Olifirenko',
    author_email='opaolifirenkomaxim@gmail.com',
